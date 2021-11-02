@@ -14,4 +14,4 @@ elif what == '%':
 elif what == '/':
     res = number / number1                
 
-print('Результат: ' + str(res)) 
+print('Результат: ' + str(res))
