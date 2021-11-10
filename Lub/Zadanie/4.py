@@ -1,12 +1,15 @@
-number = int(input('First number '))
-number2 = int(input('Second number '))
-number3 = int(input('Third number '))
-
-if number + number2 == number3 or number2 + number3 == number or number3 + number == number2:
-    print('Yes')
-else:
-    print('No')    
-  
-
-
-        
+n1 = int(input('First number '))
+n2 = int(input('Second number '))
+n3 = int(input('Third number '))
+list = sorted([n1, n2, n3])
+while True:
+    if list[0] + list[1] != list[2]:
+        print('No')   
+        n1 = int(input('First number '))
+        n2 = int(input('Second number '))
+        n3 = int(input('Third number '))
+        list = sorted([n1, n2, n3])
+    else:
+        list[0] + list[1] == list[2]
+        print('Yes')    
+        break    
