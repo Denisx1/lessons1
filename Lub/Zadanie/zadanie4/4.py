@@ -1,6 +1,5 @@
-number = [1, 3, 6, 10, 12, 23, 10, 29, 12, 30]
+number = [1, 12, 6, 10, 13, 23, 75, 29, 4, 78]
 def useless(s):
-    number.sort
     return s[-1] / len(s)
 print(number)       
 print(useless(number))
