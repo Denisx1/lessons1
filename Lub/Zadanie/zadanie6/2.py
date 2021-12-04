@@ -200,4 +200,5 @@ dict = {'iregular verbs':
     ['be', 'was were',	'been', '-', 'быть']
     ['beat', 'beat', 'beaten', '-',	'бить']
     []}
+    12332423423423423423423
         
